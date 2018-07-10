@@ -10,6 +10,12 @@ npm install
 npm start
 ```
 
+This simple app runs on json-server. So to get it started you'll also need to run
+
+```bash
+json-server --watch db.json --port 3001
+```
+
 ## License
 
 The code is licensed under the [MIT License](http://opensource.org/licenses/MIT)
